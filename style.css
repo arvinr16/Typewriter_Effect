@@ -2,10 +2,36 @@
     font-family: "Noto Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
+    margin: 0;
+}
+
+#section-main {
+    position: relative;
+}
+
+#image {
+    display: flex;
+}
+
+#image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 #main {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    background: white;
+    border-radius: 15px;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+#typewriter2 {
+    font-size: 92px;
+    font-weight: 700;
+    background: linear-gradient(45deg, #7dc0ff, #9992ff);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
